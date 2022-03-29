@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040989d4-24f1-4c83-b6d6-6dbc622c11e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Base.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -94,6 +93,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.34774068" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
@@ -123,7 +125,11 @@
       <updated>1647427789000</updated>
       <workItem from="1647427790144" duration="1677000" />
       <workItem from="1647447303710" duration="8559000" />
-      <workItem from="1647857873679" duration="7317000" />
+      <workItem from="1647857873679" duration="18071000" />
+      <workItem from="1648109989860" duration="9387000" />
+      <workItem from="1648545087487" duration="32000" />
+      <workItem from="1648545131920" duration="82000" />
+      <workItem from="1648545226199" duration="2691000" />
     </task>
     <servers />
   </component>
