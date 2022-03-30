@@ -1,34 +1,27 @@
 package models;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class User {
-    private String name;
-    private int id;
-    //можно менять список, но не ссылку на список
-    public final ArrayList<User> myUsersList = new ArrayList<User>();
 
-    public static int postNumber;
-
-    {//before ctor
-        Random r = new Random();
-        id = r.nextInt();
+    //ВЛОЖЕННЫЙ СТАТИЧЕСКИ КЛАСС МАЛО ЧЕМ ОТЛИЧАЕТСЯ ОТ ОБЫЧНОГО
+    //разве что мы четко видим при создании статически вложенного класса, что он
+    //объявлен в другом классе
+    private static class Model{
+        public String name;
+        public int height;
+        public int age;
+        public double weight;
+        public double feetSize;
     }
 
-    //зачем надо не оч понятно, но по идее такой блок нужен
-    //для того, чтобы инициализировать в первый раз какие-то стат переменные при первом создании
-    //экземпляра статического класса
-    static {
-        postNumber = 12;
+    public ArrayList<Model> modelsList;
+
+    public User(ArrayList<Model> modelsList) {
+        this.modelsList = modelsList;
     }
 
-
-    public User() {
-        Base b = new Base();//может быть создано внутри одного пакета
-    }
-
-    public User(String name){
-        this();
+    public void add(Model model){
+        modelsList.add(model);
     }
 }
