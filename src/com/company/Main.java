@@ -1,22 +1,31 @@
 package com.company;
 
-import contracts.IntSequence;
-import models.DigitSequence;
-import models.SquareSequence;
+import contracts.MyFunc;
+import contracts.MyFunctionalInterface;
 
 public class Main {
 
     public static void main(String[] args) {
-        IntSequence digits = new DigitSequence(1800);
+        MyFunctionalInterface myFunctionalInterface = () -> System.out.println("Hello world");
+        MyFunctionalInterface myFunctionalInterface1 = Main::display;
 
-        IntSequence.getInfo();//вызов стат метода, в c# тоже есть стат методы у интерфейса
+        myFunctionalInterface.getInfo();
+        myFunctionalInterface1.getInfo();
 
+        getNumber(() -> System.out.println("Hello world"));
 
+        MyFunc<Integer> myFunc = (String a, String b) -> {
+            return Integer.getInteger(a + b);
+        };
+    }
 
-        if(digits instanceof DigitSequence){
-            DigitSequence digitSequence = (DigitSequence) digits;
-        }
+    public static void display(){
+        System.out.println("New output info");
+    }
 
+    public static int getNumber(MyFunctionalInterface func){
+        func.getInfo();
+        return 1;
     }
 }
 
