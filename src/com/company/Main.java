@@ -1,7 +1,10 @@
 package com.company;
 
+import contracts.GetObject;
 import contracts.MyFunc;
 import contracts.MyFunctionalInterface;
+import models.MyClass;
+import models.SomeNewClass;
 
 public class Main {
 
@@ -19,6 +22,15 @@ public class Main {
         };
 
         var testDefault = myFunc.someGetValue("12");
+
+        MyClass myClass = new MyClass();
+        myClass.getValue("a", "b");
+
+        MyFunc<Integer> myFunc1 = myClass;
+        myFunc1.someGetValue("12");
+
+        GetObject<SomeNewClass> getObject = SomeNewClass::new;
+        var res = getObject.getBack();
     }
 
     public static void display(){
