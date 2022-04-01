@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040989d4-24f1-4c83-b6d6-6dbc622c11e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contracts/MyFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contracts/MyFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/MyClassInheritedFromAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/SomeAbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java1/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/ISequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/IntSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/DigitSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Example.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/SquareSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contracts/MyFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/MyFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

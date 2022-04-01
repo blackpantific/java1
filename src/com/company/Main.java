@@ -17,6 +17,8 @@ public class Main {
         MyFunc<Integer> myFunc = (String a, String b) -> {
             return Integer.getInteger(a + b);
         };
+
+        var testDefault = myFunc.someGetValue("12");
     }
 
     public static void display(){
