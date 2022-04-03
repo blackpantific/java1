@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="040989d4-24f1-4c83-b6d6-6dbc622c11e6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java1/Models/MyClassInheritedFromAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java1/Models/SomeAbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java1/contracts/MyFunctionalInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/GetObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/MyFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contracts/MyFunctionalInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MyClassInheritedFromAbstract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/SomeAbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/SomeNewClass.java" beforeDir="false" />
-    </list>
+    <list default="true" id="040989d4-24f1-4c83-b6d6-6dbc622c11e6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
