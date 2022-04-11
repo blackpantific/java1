@@ -11,8 +11,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,6 +125,9 @@
       <workItem from="1648545087487" duration="32000" />
       <workItem from="1648545131920" duration="82000" />
       <workItem from="1648545226199" duration="2691000" />
+      <workItem from="1649158106726" duration="4338000" />
+      <workItem from="1649521352476" duration="1197000" />
+      <workItem from="1649682253374" duration="1431000" />
     </task>
     <servers />
   </component>
@@ -141,5 +144,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
