@@ -45,11 +45,18 @@ public class Main {
 //        Object o = (Object)"My data string";
 //        var resultInvocation = function.apply(o);
 
-        var res = func.apply(100);
+        var res = func.<Double>compose( (Double db) -> {
+            return 10;
+        });
 
-        var fun = func.<Object>compose( (Object o, Integer myInt) -> {
+        //var resOfInvocation = res.apply(500.0);
+        var funcAndThen = res.<Double>andThen( (String str) -> {
+            var length = (Integer) str.length();
+            return (double) length;
+        });
 
-        })
+        var resAndThen = funcAndThen.apply(50.0);
+
 
     }
 }
