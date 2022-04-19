@@ -1,20 +1,39 @@
 package com.company;
 
-import models.MyClass;
+import contracts.MyInterface;
 
 public class Main {
 
     public static void main(String[] args) {
-        MyClass myClass = new MyClass();
-        myClass.City = "New York";
-        myClass.Company = "JPMorgan Chase";
-        myClass.Country = "USA";
-        myClass.Number = "+1 327 643 13 20";
 
-        myClass.Delegate = (a, b) -> a + b;
+    }
 
-        //var res = myClass.Delegate.Invoke("Hello ", "world!");
-        myClass.InvokeSomeAction();
+    //пример локального класса
+    //локальный класс, это класс, созданный внутри метода
+    public static MyInterface getInterfaceClassRealisation(){
+        class MyClass implements MyInterface {
+
+            @Override
+            public void getInfo() {
+                System.out.println("Output info about my program!");
+            }
+        }
+        return new MyClass();
+    }
+
+    //пример анонимного класса
+    public static MyInterface getAnonymousClass(){
+        return new MyInterface() {
+            @Override
+            public void getInfo() {
+                System.out.println("Output info with anonymous class!");
+            }
+        };
+    }
+
+    //аналог в лямбда-выражении
+    public static MyInterface getLambdaAnalogue(){
+        return () -> System.out.println("Output information from lambda expression!");
     }
 }
 
